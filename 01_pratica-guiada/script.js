@@ -23,8 +23,10 @@ console.log("Após rendimento de 3,4x =",saldo);
 // Passo 6
 saldo = saldo % 3
 console.log(saldo);
+// Aqui esse Resto da divisão é o seguinte, ele considera que do saldo final de 42,602, se dividirmos em 3 partes iguais, ele vai considerar apenas o número redondo 42, o qual em 3 partes ficará 14 cada parte, e aqueles centavos quebrados, são demonstrados no Console através desse comando conhecido como Módulo, onde utilizamos o percentual para fazer o cálculo %. Esse valor dos centavos que ficam, é o que sobrou pra comprar chiclete. 
 
-// ou fazer assim abaixo
+
+// ou também podemos fazer o Exercício 1 de um modo mais simples, seguindo o enunciado e sem criar as variáveis como eu fiz, e a sequência vemos abaixo:
 let saldo2 = 15
 console.log(saldo2);
 saldo2 += 22.40
